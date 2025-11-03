@@ -1,0 +1,52 @@
+# ==========================
+# .NET y Visual Studio Code
+# ==========================
+
+# Carpetas de compilación
+bin/
+obj/
+
+# Archivos de usuario / IDE
+.vscode/
+*.code-workspace
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.idea/
+*.iml
+
+# Archivos temporales
+*.log
+logs/
+log/
+*.tmp
+*.temp
+*.bak
+*.ncb
+*.dbmdl
+*.pdb
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
+
+# Archivos de bases de datos locales (SQL Server)
+*.mdf
+*.ldf
+
+# Archivos generados por publicación
+publish/
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+
+
+# ====================================
+# NOTA: Se permiten appsettings.json
+# ====================================
+# No ignoramos appsettings.*.json para mantener configuraciones visibles
+# (por ejemplo, appsettings.json, appsettings.Development.json, etc.)
