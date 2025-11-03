@@ -130,3 +130,4 @@ C:\Users\Pc\Documents\Proyecto Prueba\Evaluacion\obj\Debug\net9.0\ref\Evaluacion
 C:\Users\Pc\Documents\Proyecto Prueba\Evaluacion\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Pc\Documents\Proyecto Prueba\Evaluacion\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Pc\Documents\Proyecto Prueba\Evaluacion\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Pc\Documents\Proyecto Prueba\Evaluacion\obj\Debug\net9.0\Evaluacion.sourcelink.json

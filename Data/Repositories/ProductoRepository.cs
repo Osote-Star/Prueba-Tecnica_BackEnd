@@ -30,9 +30,17 @@ namespace Evaluacion.Data.Repositories
             return producto;
         }
 
-        public async Task<bool> ActualizarAsync(Producto producto)
+        public async Task<bool> ActualizarAsync(int id, Producto producto)
         {
-            _context.Productos.Update(producto);
+            var existente = await _context.Productos.FindAsync(id);
+            if (existente == null) return false;
+
+            // Mapear cambios
+            existente.nombre = producto.nombre;
+            existente.categoria = producto.categoria;
+            existente.precio = producto.precio;
+
+            _context.Productos.Update(existente);
             return await _context.SaveChangesAsync() > 0;
         }
 
